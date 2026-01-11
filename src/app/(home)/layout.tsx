@@ -1,4 +1,5 @@
 import NavegationBar from "@/app/(home)/components/NavegationBar"
+import ProfileSettings from "./components/ProfileSettings"
 
 export default function HomeLayout (
   {children, 
@@ -7,9 +8,10 @@ export default function HomeLayout (
 }>) {
   return (
     <>
-      <header>
+      <header >
         <NavegationBar/>
-
+        {/* Account placeholder */}
+        <ProfileSettings/>
       </header>
       {children}
 
