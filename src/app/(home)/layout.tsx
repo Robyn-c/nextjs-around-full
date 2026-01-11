@@ -7,8 +7,12 @@ export default function HomeLayout (
 }>) {
   return (
     <>
-      <NavegationBar></NavegationBar>
+      <header>
+        <NavegationBar/>
+
+      </header>
       {children}
+
     </>
   )
 }
