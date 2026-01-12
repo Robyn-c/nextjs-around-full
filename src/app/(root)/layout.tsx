@@ -1,4 +1,4 @@
-import NavegationBar from "@/app/(home)/components/NavegationBar"
+import NavegationBar from "@/app/(root)/components/NavegationBar"
 import ProfileSettings from "./components/ProfileSettings"
 
 export default function HomeLayout (
