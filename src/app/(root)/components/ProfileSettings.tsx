@@ -4,7 +4,7 @@ function ProfileSettings() {
   return (
     <section className="pt-10 px-8 m-auto">
       <figure className="flex gap-4 items-center">
-        <Image src="/profile-pic.jpg" alt="Image depicting explorer Jacques Cousteau" width={120} height={120}
+        <Image src="/users/profile-pic.jpg" alt="Image depicting explorer Jacques Cousteau" width={120} height={120}
         className="max-w-1/4 rounded-full"
         />
         <hgroup>
